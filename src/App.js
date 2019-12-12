@@ -42,9 +42,9 @@ class App extends Component {
             <Navbar />        
             <div className="container">
               <Switch>
-                <Route exact path="/" component={Index} />
+                <Route exact path="/index" component={Index} />
                 <Route exact path="/lyrics/track/:id" component={Lyrics} />
-                <Route exact path="/login" component={Login}/>
+                <Route exact path="/" component={Login}/>
               </Switch>
             </div>
           </React.Fragment>
